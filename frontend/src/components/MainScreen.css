@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=PT+Serif:ital@1&family=Work+Sans:wght@200&display=swap');
+
+.mainback{
+    min-height: 93vh;
+    display: flex;
+    padding: 10px 0;
+}
+
+.page{
+    width: 100%;
+}
+
+.heading{
+    font-size: 60px;
+    font-family: "Work Sans", sans-serif;
+    padding: 5px 10px;
+    
+}
+
+.accordion-button {
+    background-color: #fff;
+    width:100%;
+    border: #fff;
+  }
+  
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+}
